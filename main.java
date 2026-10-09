@@ -27,15 +27,18 @@ public class main {
 
     System.out.print("Enter your choice (1-8): ");
     int choice = scanner.nextInt();
-    
+
+        switch (choice) {
+
+        case 1:
     // Adding a product
         System.out.println("========== Add A Product ==========");
         System.out.print("Enter product ID: ");
-        String productID = scanner.nextLine();
+        String productID = scanner.next();
         System.out.print("Enter product name: ");
-        String productName = scanner.nextLine();
+        String productName = scanner.next();
         System.out.print("Enter product category: ");
-        String productCategory = scanner.nextLine();
+        String productCategory = scanner.next();
         System.out.print("Enter product price: ");
         double productPrice = scanner.nextDouble();
         System.out.print("Enter product quantity in stock: ");
@@ -46,9 +49,10 @@ public class main {
         System.out.println("Product information recorded successfully!");
 
 
-        // Invetory list to store products
+    // Viewing Products
+                
 
-
+        }
     scanner.close();
     }
 }
