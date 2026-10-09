@@ -25,6 +25,9 @@ public class main {
     System.out.println("8. Exit");
     System.out.println("================================");
 
+    System.out.print("Enter your choice (1-8): ");
+    int choice = scanner.nextInt();
+    
     // Adding a product
         System.out.println("========== Add A Product ==========");
         System.out.print("Enter product ID: ");
